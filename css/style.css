@@ -6,6 +6,7 @@
 	*/
 body {
 	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,6 +61,7 @@ p {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
+	transition: all .3s ease-in-out;
 }
 
 .btn-block {
@@ -85,6 +87,7 @@ p {
 	margin-right: 0;
 }
 /* ///global */
+
 
 /* header */
 .header {
@@ -158,12 +161,10 @@ p {
 	background-repeat: no-repeat;
 }
 
-.hero__inner {
-	/* border: 3px solid red; */
-}
+.hero__inner {}
+
 .hero__slider {
 	max-width: 60%;
-	/* background-color: pink; */
 	overflow: hidden;
 }
 
@@ -315,3 +316,63 @@ p {
 	font-family: 'Muli', sans-serif; 
 }
 /* ///about section */
+
+
+/* boost site section */
+.boost-site {
+	background-image: url("../images/boost.jpg");
+	background-position: top right;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.boost-site__info {
+	max-width: 65%;
+}
+
+.boost-site__info .section__head-wrapper {
+	margin-bottom: 45px;
+	text-align: left;
+}
+
+.boost-site__info .section__head {
+	font-size: 71px;
+}
+
+.boost-site__info .section__sub-text {
+	font-size: 26px;
+	bottom: 3px;
+}
+
+.boost-site__descr {
+	margin-bottom: 45px;
+	font-size: 16px;
+	color: #757575;
+}
+
+.boost-site__list {
+	padding: 0;
+	margin: 0 0 30px 0;
+	list-style: none;
+}
+
+.boost-site__list li {
+	position: relative;
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #757575;
+}
+
+.boost-site__list .ion-android-star:before {
+	vertical-align: middle;
+	margin-right: 5px;
+	font-size: 21px;
+}
+
+.boost-site__btn {
+	padding: 15px 25px;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #ffe401;
+}
+/* ///boost site section */
