@@ -72,7 +72,7 @@ p {
 .btn-block__btn {
 	min-width: 225px;
 	margin-right: 25px;
-	padding: 15px 0;
+	padding: 20px 0;
 	font-size: 14px;
 	text-transform: capitalize;
 	background-color: #ffe401;
@@ -85,6 +85,12 @@ p {
 
 .btn-block__btn:last-child {
 	margin-right: 0;
+}
+
+.btn-block__btn--bordered {
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
 }
 /* ///global */
 
@@ -376,3 +382,32 @@ p {
 	background-color: #ffe401;
 }
 /* ///boost site section */
+
+
+/* who-we-are section */
+.who-we-are {
+	background-image: url("../images/cta_bg.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.who-we-are__logo {}
+
+.who-we-are__info {
+	color: white;
+}
+
+.who-we-are__head {
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+.who-we-are__text {
+	max-width: 70%;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 26px;
+}
+/* ///who-we-are section */
