@@ -62,6 +62,7 @@ p {
 	text-decoration: none;
 	color: black;
 	transition: all .3s ease-in-out;
+	cursor: pointer;
 }
 
 .btn-block {
@@ -496,3 +497,77 @@ p {
 	color: #757575;
 }
 /* ///features */
+
+/* portfolio */
+.portfolio {
+	padding-bottom: 0;
+	background-color: #ffe401;
+}
+
+.portfolio .section__head {
+	color: #e8d100;
+}
+
+.portfolio__filter {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.portfolio__filter-btn {
+	padding: 8px 15px;
+	text-transform: capitalize;
+	font-size: 14px;
+	border: 1px solid black;
+}
+
+.portfolio__filter-btn:hover {
+	color: white;
+	background-color: black;
+}
+
+.work-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.work-grid__unit {
+	position: relative;
+	flex-basis: 25%;
+	max-height: 310px;
+	overflow: hidden;
+}
+
+.work-grid__unit:hover .work-grid__descr {
+	bottom: 0;
+}
+
+.work-grid__unit img {
+	display: block;
+	width: 100%;
+}
+
+.work-grid__descr {
+	position: absolute;
+	bottom: -100%;
+	width: 100%;
+	padding: 20px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.8);
+	transition: all .3s ease-in-out;
+}
+
+.work-grid__name {
+	display: inline-block;
+	margin: 0;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.work-grid__category {
+	font-size: 12px;
+}
+/* ///portfolio */
