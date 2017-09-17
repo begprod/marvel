@@ -1,1 +1,1 @@
-![Marvel template](https://raw.githubusercontent.com/begprod/hugo/master/HUGO_Free-Landing-Page.jpg)
+Marvel Template
