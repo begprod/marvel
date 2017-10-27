@@ -57,7 +57,7 @@ p {
 	display: inline-block;
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-weight: normal;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
@@ -284,7 +284,7 @@ p {
 
 
 .about-cards__name {
-	font-weight: 400px;
+	font-weight: normal;
 	font-size: 18px;
 }
 
@@ -575,7 +575,7 @@ p {
 /* service */
 .service {
 	background-image: url("../images/service.jpg");
-	background-position: left center;
+	background-position: 0 100%;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -645,3 +645,117 @@ p {
 	color: #a8a8a8;
 }
 /* ///service */
+
+/* pricing */
+.pricing {
+	background-image: url("../images/pricing.jpg");
+	background-size: cover;
+}
+
+.pricing__inner .section__head {
+	color: #e8d100;
+}
+
+.pricing-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	margin-top: 150px;
+}
+
+.pricing-grid__unit {
+	position: relative;
+	flex-basis: 360px;
+	text-align: center;
+	background-color: white;
+}
+
+.pricing-grid__unit--mvp::after {
+	content: "Most popular";
+	position: absolute;
+	top: -40px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #ffe401;
+	background-color: #e6e6e6;
+}
+
+.pricing-grid__unit:last-child {
+	margin-right: 0;
+}
+
+.pricing-grid__unit-info {
+	padding: 25px 60px 25px 60px;
+	color: white;
+	background-color: #8d8d8d;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pricing-grid__unit-head {
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+}
+
+.pricing-grid__unit-price {
+	margin-bottom: 25px;
+}
+
+.pricing-grid__unit-value {
+	font-size: 30px;
+}
+
+
+.pricing-grid__unit-num {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.pricing-grid__unit-term {
+	font-size: 13px;
+}
+
+.pricing-list {
+	padding-top: 70px;
+	border: 1px solid #e3e3e3;
+}
+
+.pricing-list__inner {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pricing-list__unit {
+	position: relative;
+	padding: 23px;
+	color: #808080;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.pricing-list__unit .icon {
+	font-size: 13px;
+}
+
+.pricing-list__text {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.pricing-grid__unit-link {
+	display: block;
+	font-size: 14px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #444444;
+	border-top: 4px solid #ffe401;
+}
+/* ///pricing */
